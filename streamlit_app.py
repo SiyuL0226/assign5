@@ -2,9 +2,6 @@ import streamlit as st
 import yfinance as yf
 import pandas as pd
 
-# App title
-st.title("Microsoft Sharpe Ratio by Siyu Lian")
-
 # Define ticker and monthly risk-free rate
 ticker = "MSFT"
 rf_monthly = 0.0025
